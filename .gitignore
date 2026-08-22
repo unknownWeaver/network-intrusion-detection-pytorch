@@ -1,0 +1,30 @@
+# data (never commit raw dataset)
+data/
+
+# venv
+.venv/
+venv/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# jupyter
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# model artifacts / outputs
+*.pt
+*.pth
+outputs/
+runs/
